@@ -1,5 +1,6 @@
 import validator from 'is-my-json-valid';
-var UserValidate = validator({
+
+const UserValidate = validator({
   required: true,
   type: 'object',
   properties: {

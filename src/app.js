@@ -1,9 +1,9 @@
+import dotenv from 'dotenv';
 import express from 'express';
 import morgan from 'morgan';
-import dotenv from 'dotenv';
 import path from 'path';
-import { errorHandler, notFoundHandler } from './middleware/errorHandler.js';
-import moviesRoute from './routes/movies.js';
+import { errorHandler, notFoundHandler } from './api/middleware/error/errorHandler.js';
+import moviesRoute from './api/routes/movies.js';
 
 dotenv.config();
 
@@ -14,6 +14,7 @@ const app = express();
 app.use(morgan('dev'));
 app.use(express.static(path.join(dirname, '/public')));
 app.use(express.json());
+
 app.use('/movies', moviesRoute);
 app.use(errorHandler);
 app.use(notFoundHandler);

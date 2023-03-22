@@ -9,9 +9,10 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'linebreak-style': 0,
-    'no-console': 0,
+    'linebreak-style': 'off',
     'import/extensions': 'off',
-    'object-curly-newline': 'never',
+    'no-console': 'off',
+    'object-curly-newline': 'off',
+    'implicit-arrow-linebreak': 'off',
   },
 };
