@@ -7,7 +7,7 @@ This is a simple template for an Express server that can be used as a starting p
 To use this template, run the following command to generate a new project based on this template:
 
 ```
-npx degit hossaini310/express-templ your-project
+npx degit hossaini310/expressDB-templ your-project
 ```
 
 This will create a new directory called `your-project` that contains the files from this template. Next, navigate to the new directory and install the required dependencies with `npm install`. Once the dependencies are installed, the server can be started with `npm run dev` which will start a development server that will automatically restart when files are changed. For production, you can use `npm run start` which will start a production server.
