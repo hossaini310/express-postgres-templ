@@ -1,4 +1,4 @@
-import query from '../db/index.js';
+import query from '../../db/index.js';
 
 const dbGetMovies = () => query('SELECT * FROM movies;');
 

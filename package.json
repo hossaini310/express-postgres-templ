@@ -2,14 +2,14 @@
   "name": "express-templ",
   "version": "1.0.0",
   "description": "a simple web server",
+  "author": "Hossaini Hosain",
   "type": "module",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
     "dev": "nodemon ./src/app.js",
-    "lint": "eslint . --ext .js"
+    "lint": "eslint . --ext .js",
+    "start": "node ./src/app.js"
   },
-  "author": "Hossaini Hosain",
   "dependencies": {
     "colors": "^1.4.0",
     "dotenv": "^16.0.3",

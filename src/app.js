@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 import express from 'express';
 import morgan from 'morgan';
 import path from 'path';
-import { errorHandler, notFoundHandler } from './api/middleware/error/errorHandler.js';
+import { errorHandler, notFoundHandler } from './middleware/errorHandler.js';
 import moviesRoute from './api/routes/movies.js';
 
 dotenv.config();
