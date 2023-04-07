@@ -1,7 +1,7 @@
 {
   "name": "express-templ",
   "version": "1.0.0",
-  "description": "a simple web server",
+  "description": "A web server with PostgreSQL integration responds to HTTP requests and stores data in a PostgreSQL database.",
   "author": "Hossaini Hosain",
   "type": "module",
   "main": "app.js",

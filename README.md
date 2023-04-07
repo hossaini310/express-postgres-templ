@@ -1,13 +1,13 @@
 # Express Server Template
 
-This is a simple template for an Express server that can be used as a starting point for new projects.
+This is an Express server template that includes PostgreSQL support, providing a quick and easy starting point for building web applications.
 
 ## Usage
 
 To use this template, run the following command to generate a new project based on this template:
 
 ```
-npx degit hossaini310/expressDB-templ your-project
+npx degit hossaini310/express-postgres-templ your-project
 ```
 
 This will create a new directory called `your-project` that contains the files from this template. Next, navigate to the new directory and install the required dependencies with `npm install`. Once the dependencies are installed, the server can be started with `npm run dev` which will start a development server that will automatically restart when files are changed. For production, you can use `npm run start` which will start a production server.
@@ -17,7 +17,7 @@ This will create a new directory called `your-project` that contains the files f
 The following steps are required to set up and use this template:
 
 1. Generate a new project based on this template with the command:
-   `npx degit hossaini310/express-templ your-project`
+   `npx degit hossaini310/express-postgres-templ your-project`
 2. Create a `.env` file in the root directory of the project and add the variables from the `.env.example` file
 3. Install the required dependencies with `npm install`
 4. Start the development server with `npm run dev`
@@ -52,3 +52,11 @@ For more information on using Express, I recommend the following resources:
 - The [Express documentation](https://expressjs.com/en/api.html)
 - An [introduction tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction) on the Mozilla Developer Network
 - A [video tutorial](https://www.youtube.com/watch?v=L72fhGm1tfE) on YouTube by Traversy Media
+
+For learning about PostgreSQL, consider these resources:
+
+- The [PostgreSQL official documentation](https://www.postgresql.org/docs/)
+- A [tutorial](https://www.postgresqltutorial.com/) on PostgreSQL by PostgreSQL Tutorial website
+- A [video tutorial](https://www.youtube.com/watch?v=qw--VYLpxG4) on YouTube by freeCodeCamp.org
+
+These resources should provide a good starting point for learning more about Express and PostgreSQL.
